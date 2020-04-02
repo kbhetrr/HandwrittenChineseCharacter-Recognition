@@ -13,7 +13,7 @@ GoogLeNet에서 처음 공개된 Inception Module을 이용하면 파라미터 �
 CASIA HWDB 1.1 Offline Database를 이용했습니다. (<a href="http://www.nlpr.ia.ac.cn/databases/handwriting/Download.html">링크</a>)
 
 |데이터 셋 명|클래스 수|데이터 개수|데이터 셋 크기|
-|---------|--------  |----------|----|
+|---------| :--------: |----------|----|
 | CASIA HWDB 1.1 | <center>3755</center> | **Train** : 897,758장 / **Test** : 223,991장 | **Train** : 1.9GB / **Test** : 0.4GB |
 
 
