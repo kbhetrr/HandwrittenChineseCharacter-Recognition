@@ -14,7 +14,7 @@ CASIA HWDB 1.1 Offline Database를 이용했습니다. (<a href="http://www.nlpr
 
 |데이터 셋 명|클래스 수|데이터 개수|데이터 셋 크기|
 |---------|--------  |----------|----|
-| CASIA HWDB 1.1 | 3755 | **Train** : 897,758장 / **Test** : 223,991장 | **Train** : 1.9GB / **Test** : 0.4GB |
+| CASIA HWDB 1.1 | :3755: | **Train** : 897,758장 / **Test** : 223,991장 | **Train** : 1.9GB / **Test** : 0.4GB |
 
 
 ### 1.1 데이터 전처리
