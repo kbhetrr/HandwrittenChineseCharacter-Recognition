@@ -20,3 +20,5 @@ CASIA HWDB 1.1 Offline Database를 이용했습니다. (<a href="http://www.nlpr
 ### 1.1 데이터 전처리
 데이터 포맷이 .gnt 파일이라서 이것을 .png처럼 학습이 가능한 파일로 바꿔줘야 한다.
 그러기 위해서는 gnt2png.py을 실행시켜 ./database에 데이터를 만들어준다.
+
+(작성중...)
