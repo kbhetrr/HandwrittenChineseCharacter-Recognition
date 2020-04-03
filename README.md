@@ -10,40 +10,16 @@ GoogLeNet에서 처음 공개된 Inception Module을 이용하면 파라미터 �
 ## Dataset
 CASIA HWDB 1.1 Offline Database를 이용했습니다. (<a href="http://www.nlpr.ia.ac.cn/databases/handwriting/Download.html">링크</a>)
 
-|데이터 셋 명|클래스 수|데이터 개수|데이터 셋 크기|
-|---------| :--------: |----------|----|
-| CASIA HWDB 1.1 | <center>3755</center> | **Train** : 897,758장 / **Test** : 223,991장 | **Train** : 1.9GB / **Test** : 0.4GB |
+|데이터 셋 명|클래스 수|이미지 크기|데이터 개수|데이터 셋 크기|
+|---------| :--------: |----------|----|-----|
+| CASIA HWDB 1.1 | 3755 | 64 X 64 픽셀 | **Train** : 897,758 / **Test** : 223,991 | **Train** : 1.9GB / **Test** : 0.4GB |
 
-<table style="text-align:center;">
-  <tr>
-      <td>
-        <img src="./assets/可.png">
-      </td>
-      <td>
-        <img src="./assets/干.png">
-      </td>
-      <td>
-        <img src="./assets/古.png">
-      </td>
-      <td>
-        <img src="./assets/介.png">
-      </td>
-    </tr>
-    <tr>
-      <td>
-        <center>可</center>
-      </td>
-      <td>
-        <center>干</center>
-      </td>
-      <td>
-        <center>古</center>
-      </td>
-      <td>
-        <center>介</center>
-      </td>
-    </tr>
-</table>
+### Example
+
+|<img src="./assets/可.png">|<img src="./assets/干.png">|<img src="./assets/古.png">|<img src="./assets/介.png">|
+| :---------: | :--------: | :--------: | :----: |
+| **可** | **干** | **古** | **介** |
+
 
 ## Data Preprocessing
 CASIA HWDB 1.1 데이터 포맷이 .gnt 파일이라서 이것을 학습이 가능한 포맷으로 바꿔줘야 한다.
