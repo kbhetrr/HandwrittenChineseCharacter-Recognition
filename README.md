@@ -14,9 +14,8 @@ CASIA HWDB 1.1 Offline Database를 이용했습니다. (<a href="http://www.nlpr
 |---------| :--------: |----------|----|
 | CASIA HWDB 1.1 | <center>3755</center> | **Train** : 897,758장 / **Test** : 223,991장 | **Train** : 1.9GB / **Test** : 0.4GB |
 
-<table>
-  <tbody>
-    <tr>
+<table style="text-align:center;">
+  <tr>
       <td>
         <img src="./assets/可.png">
       </td>
@@ -32,23 +31,23 @@ CASIA HWDB 1.1 Offline Database를 이용했습니다. (<a href="http://www.nlpr
     </tr>
     <tr>
       <td>
-        <img src="./assets/可.png">
+        <center>可</center>
       </td>
       <td>
-        <img src="./assets/干.png">
+        <center>干</center>
       </td>
       <td>
-        <img src="./assets/古.png">
+        <center>古</center>
       </td>
       <td>
-        <img src="./assets/介.png">
+        <center>介</center>
       </td>
     </tr>
-  </tbody>
 </table>
 
 ## Data Preprocessing
-데이터 포맷이 .gnt 파일이라서 이것을 .png처럼 학습이 가능한 파일로 바꿔줘야 한다.
+CASIA HWDB 1.1 데이터 포맷이 .gnt 파일이라서 이것을 학습이 가능한 포맷으로 바꿔줘야 한다.
+.gnt 파일의 데이터들을 64 X 64 px의 .png 파일로 변환해 ./database에 저장했다.
 그러기 위해서는 gnt2png.py을 실행시켜 ./database에 데이터를 만들어준다.
 
 (작성중...)
