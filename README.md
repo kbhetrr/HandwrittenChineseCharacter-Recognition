@@ -14,6 +14,38 @@ CASIA HWDB 1.1 Offline Database를 이용했습니다. (<a href="http://www.nlpr
 |---------| :--------: |----------|----|
 | CASIA HWDB 1.1 | <center>3755</center> | **Train** : 897,758장 / **Test** : 223,991장 | **Train** : 1.9GB / **Test** : 0.4GB |
 
+<table>
+  <tbody>
+    <tr>
+      <td>
+        <img src="./assets/可.png">
+      </td>
+      <td>
+        <img src="./assets/干.png">
+      </td>
+      <td>
+        <img src="./assets/古.png">
+      </td>
+      <td>
+        <img src="./assets/介.png">
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <img src="./assets/可.png">
+      </td>
+      <td>
+        <img src="./assets/干.png">
+      </td>
+      <td>
+        <img src="./assets/古.png">
+      </td>
+      <td>
+        <img src="./assets/介.png">
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 ## Data Preprocessing
 데이터 포맷이 .gnt 파일이라서 이것을 .png처럼 학습이 가능한 파일로 바꿔줘야 한다.
