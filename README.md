@@ -20,3 +20,7 @@ CASIA HWDB 1.1 Offline Database를 이용했습니다. (<a href="http://www.nlpr
 그러기 위해서는 gnt2png.py을 실행시켜 ./database에 데이터를 만들어준다.
 
 (작성중...)
+#### 정확도
+<img src="./assets/epoch_accuracy.svg" width="400px" alt="epoch accuracy">
+#### 손실 함수 값
+<img src="./assets/epoch_loss.svg" width="400px" alt="epoch loss">
