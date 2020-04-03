@@ -1,5 +1,5 @@
 # Inception Module 기반의 한자 손글씨 분류 모델 제작
-## Handwritten Chinese Characters Recognition with Inception Module
+## Handwritten Chinese Character Recognition with Inception Module
 
 CASIA HWDB 1.1 데이터를 이용하여 3755개의 한자를 인식하는 모델을 제작.
 
